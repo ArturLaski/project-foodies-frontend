@@ -23,7 +23,7 @@ export const App = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    loadSvgSprite("/fufu_test/symbol-defs.svg");
+    loadSvgSprite("/project-foodies-frontend/symbol-defs.svg");
   }, []);
 
   useEffect(() => {
@@ -34,7 +34,7 @@ export const App = () => {
   }, [favoritesRes, dispatch]);
 
   return (
-    <BrowserRouter basename="/fufu_test">
+    <BrowserRouter basename="/project-foodies-frontend">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="" element={<Home />}>
