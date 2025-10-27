@@ -27,7 +27,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <p className={styles.copr}>@2024, Foodies. All rights reserved</p>
+      <p className={styles.copr}>@2025, Foodies. All rights reserved</p>
     </footer>
   );
 };
